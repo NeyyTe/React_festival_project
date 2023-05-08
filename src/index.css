@@ -48,6 +48,7 @@ p{
 :root {
   --txt_white: #fff;
   --full-black: #000;
+  --violet: rgb(99, 10, 201);
   --clr-neon: blueviolet;
   --gold: #ecb365;
 }

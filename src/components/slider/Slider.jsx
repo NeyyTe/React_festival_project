@@ -6,7 +6,7 @@ function Slider() {
     <>
     
     <div className="slider_wrapper">
-      <h2>Les Artistes</h2>
+      <h2>Les <span>Artistes</span></h2>
       <div className="slider">
         <div className="item ">
           <a className="items " href="">
@@ -81,7 +81,7 @@ function Slider() {
         </div>
       </div>
       <div className="link_artistes_wrapper">
-        <a className="link_artistes" href=""> Notre programmation </a>
+        <a className="link_artistes" href=""> Découvrir la programmation </a>
       </div>
     </div>
 

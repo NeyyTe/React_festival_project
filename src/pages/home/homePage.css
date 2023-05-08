@@ -60,6 +60,23 @@
   margin: 0 auto;
 }
 
+.link_information_wrapper{
+  display: flex;
+	justify-content: center;
+  margin-top: 2rem ;
+}
+
+
+.link_information{
+  color: white;
+	font-size: 1.3rem;
+	margin-top: 2rem;
+	padding: 0.75rem 1rem;
+	background-color:var(--violet);
+	border-radius:10px;
+}
+
+
 /* =================================================
                 SECTION_FEATURES_END
 ================================================= */
@@ -85,11 +102,16 @@
 }
 
 .wave_separator .shape-fill {
-  fill: rgb(19, 17, 54);
+  fill: #131136;
 }
 /* =================================================
                 WAVE SEPARATOR
 ================================================= */
+
+
+/* =========================================================
+                SECTION 1 - Expérience inoubliable - START
+============================================================ */
 
 .section1_experience {
   padding-top: 5rem;
@@ -100,11 +122,16 @@
   text-align: center;
 }
 
+
+.section1_experience h2 span{
+  color: #337357;
+}
+
 .section1_content {
   width: 60%;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 1fr;
   gap: 30px;
   place-items: center;
@@ -130,4 +157,32 @@
 
 .section1_text span{
   font-weight: 600;
+}
+
+/* =========================================================
+                SECTION 1 - Expérience inoubliable - END
+============================================================ */
+
+
+.banner_sponso_wrapper{
+  width: 100%;
+margin: 5rem 0;
+}
+
+.banner{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.banner img{
+ width: 200px;
+object-fit:contain;
+}
+
+.banner .jager{
+ 
+object-fit: cover;
 }
