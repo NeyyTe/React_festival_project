@@ -36,10 +36,12 @@
   
   .festival_pic {
     background-image: linear-gradient(
-        to left,
+        to left, 
         rgba(0, 0, 0, 0.95),
         rgba(0, 0, 0, 0)
+        
       ),
+    
       url(../../../public/assets/images/bg_festival_bleu_violet.jpg);
     filter: brightness(120%);
     width: 100%;
@@ -200,7 +202,3 @@
     }
   }
   
-
-  .features_cards{
-
-  }

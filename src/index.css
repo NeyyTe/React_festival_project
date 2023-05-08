@@ -35,6 +35,16 @@ h6 {
   word-break: break-word;
 }
 
+h1,h2{
+  font-size: 3rem;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+p{
+  line-height: 150%;
+
+}
+
 :root {
   --txt_white: #fff;
   --full-black: #000;

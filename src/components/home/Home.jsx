@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.css";
 
-
 function Home() {
   return (
     <>
@@ -35,7 +34,6 @@ function Home() {
             </div>
           </div>
         </div>
-     
       </main>
     </>
   );
