@@ -1,11 +1,14 @@
+
 import React from "react";
 import "./homePage.css";
+
+//Import Composants
 import Header from "../../components/header/Header";
 import Home from "../../components/home/Home";
 import Slider from "../../components/slider/Slider";
+import Footer from "../../components/footer/Footer";
 
 //IMPORT IMAGES
-
 import car from "./images/car.png";
 import lockers from "./images/lockers.png";
 import camping from "./images/camping.png";
@@ -23,12 +26,15 @@ import doliprane from "./images/logos_sponso/doliprane.jpg";
 import quechua from "./images/logos_sponso/quechua.svg";
 import justin_bridou from "./images/logos_sponso/justin_bridou.png";
 
+
+
 function HomePage() {
   return (
     <>
       <Header />
       <Home />
       <Slider />
+
       <div className="features_wrapper">
         <div className="features">
           <div className="features_cards">
@@ -153,7 +159,9 @@ function HomePage() {
           <img src={justin_bridou} alt="Justin_bridou" />
         </div>
       </section>
-    </>
+      
+   <Footer />
+      </>
   );
 }
 

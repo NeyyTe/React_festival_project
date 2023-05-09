@@ -48,13 +48,13 @@ p{
 :root {
   --txt_white: #fff;
   --full-black: #000;
-  --violet: rgb(99, 10, 201);
+  --violet: #630ac9;
   --clr-neon: blueviolet;
   --gold: #ecb365;
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -64,7 +64,7 @@ p{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(0, 0, 0);
+  background: var(--violet);
   border-radius: 10px;
   transition: all 2s ease;
 }
