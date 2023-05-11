@@ -11,21 +11,20 @@
     width: 100%;
     height: 100%;
     background:black;
-    display: flex;
+  
     position: relative;
-    justify-content: center;
+   
   }
   
   .row {
-    width: 60%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 0px;
+
     
   }
   
   .footer-col {
-    width: 55%;
+    width: 50%;
     padding: 0 15px;
   }
   
@@ -46,7 +45,7 @@
   
   .footer-col h4 {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -64,13 +63,22 @@
     background-color: var(--gold);
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 70px;
+  }
+
+  .logo_footer{
+margin-right: 100px;
+transition: 0.3s ease-in;
+  }
+  .logo_footer:hover{
+    filter: drop-shadow(0 0 1rem blueviolet);
   }
   
   /* ------------------------  Social link & Icons D ------------------------ */
   .social_links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-center;
+    gap: 25px;
   }
   
   .social_links a img {
@@ -120,4 +128,9 @@
     background-repeat: no-repeat;
     background-size: 100%;
     will-change: transform;
+  }
+
+  .dog:hover{
+    height: 300px;
+    filter: drop-shadow(0 0 1rem blueviolet);
   }

@@ -32,7 +32,7 @@
 
 .item{
 	transition: 0.4s ease-in-out;
-	/* animation: animate 20s linear  infinite; */
+	animation: animate 15s linear  infinite alternate;
 	animation-delay: 2s;
 }
 .items {
@@ -51,6 +51,7 @@ color: white;
 
 .item_body h3{
 	font-size: 1.4rem;
+	text-shadow: 1px 1px 5px  black;
 }
 
 .item_body p{

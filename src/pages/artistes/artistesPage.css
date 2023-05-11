@@ -9,7 +9,7 @@
     min-height: 100vh;
     overflow-x: hidden;
     padding: 0 0 20px;
-    background-color: #6d6d6d;
+    background-color: #858585;
 }
 
 .containerClips header
@@ -23,8 +23,6 @@
     grid-area: 2 / 2 / 3 / 3;
     padding: 40px 10px 0;
 }
-
-
 
 /* SlideBar */
 
@@ -141,7 +139,7 @@
 .filterClips .buttonTabs
 {
     background-color: transparent;
-    color: var(--thirdColor);
+    color: var(--txt_white);
     font-weight: bold;
     border: none;
     height: 50px;
@@ -288,6 +286,7 @@
     border: 1px solid rgba(255,255,255,0.5);
     padding: 10px;
     margin: auto;
+    color: var(--txt_white);
 }
 
 .card:hover .desc div:nth-child(1) span
@@ -338,5 +337,9 @@
     color: rgba(0,0,0,0.7);
 }
 
+
+.title{
+    color: white
+}
 
 

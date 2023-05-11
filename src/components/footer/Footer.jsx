@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 
-import dl_dog from "./images/dl_dog.svg";
+import logo from "./images/logo.png";
 
 // Logo Réseaux sociaux
 import Facebook from "./images/Facebook.png";
@@ -14,6 +14,9 @@ function Footer() {
       <footer className="footer">
         <div className="footer_container">
           <div className="row">
+            <div className="logo_footer footer-col">
+              <div><img src={logo} alt="" /></div>
+            </div>
             <div className="premiere_col footer-col">
               <h4>L'entreprise</h4>
               <ul>

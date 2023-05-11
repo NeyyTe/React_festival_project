@@ -18,7 +18,7 @@ function Home() {
             <p className="premier_concert_rock">Le premier concert à Cambrai</p>
 
             <div className="date">
-              <p>15 - 18 Juillet 2023</p>
+              <p>15 - 17 Juillet 2023</p>
             </div>
             <div className="location">
               <p>Au Lycée Fénélon</p>

@@ -5,7 +5,7 @@ if(document.querySelector('.containerClips'))
     const clipsContainers = document.querySelectorAll('.clips');
     const page = document.querySelector('.pagination button');
 
-    class Clip { 
+    class Clip {
         constructor(linkClip, srcVideo, views, dateHour, srcImageStreamer, titleVideo, nameStreamer, activityStreamer, containerClip)
         {
             this.linkClip = linkClip;
@@ -31,7 +31,7 @@ if(document.querySelector('.containerClips'))
             card.innerHTML = `           
                 <video src="${this.srcVideo}" controls></video>
                 
-                <div class="desc"> 
+                <div class="desc">
                     <div><span>${views} Vues</span><span>${date} à ${hours}</span></div>
                     <div class="title">
                         <img src="${this.srcImageStreamer}" alt="Image logo de ${this.nameStreamer}">
@@ -86,14 +86,14 @@ if(document.querySelector('.containerClips'))
                 });
 
                 clipsContainers[i].classList.add('activeTabs');
-            }
+            } 
 
             if(!filters[i].classList.contains('activeClips'))
             {
                 filters.forEach(filter => {
                     filter.classList.remove('activeClips');
                 });
-                filters[i].classList.add('activeClips'); 
+                filters[i].classList.add('activeClips');
             }
 
         });
