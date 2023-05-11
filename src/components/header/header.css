@@ -5,11 +5,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 4%;
+  padding: 20px 1%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 50;
+ 
 }
 
 header h1 {
@@ -20,11 +21,13 @@ header h1 {
 .nav_links ul {
   display: flex;
   margin: 0;
+  
 }
 
 .nav_links li {
   padding: 0 2rem;
   margin: auto 0;
+ 
 }
 
 .nav_links li a {
@@ -33,6 +36,7 @@ header h1 {
   font-size: 1.3em;
   margin: 0;
   position: relative;
+  
 }
 
 .nav_links li:nth-child(5) {
@@ -112,7 +116,27 @@ header h1 {
   display: block;
 }
 
+.nav_links .icons {
+  display: none;
+}
 
+
+@media all and (max-width: 920px){
+  .nav_links .icons {
+    display: block;
+}
+
+.span_links {
+  display: none;
+}
+
+.header{
+  justify-content: center;
+ 
+}
+}
 /* =================================================
                     Menu_Hamburger
 ================================================= */
+
+

@@ -63,7 +63,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <span class="dog"></span>
+          <span className="dog"></span>
         </div>
       </footer>
     </>

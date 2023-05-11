@@ -21,11 +21,13 @@ function Header() {
 
 <nav className="nav_links">
     <ul>
-        <li><NavLink to ="/" aria-current="page">Accueil <HomeTwoToneIcon/></NavLink> </li>
-        <li><NavLink to ="/artistes">Artistes <PeopleAltTwoToneIcon/></NavLink></li>
-        <li><NavLink to ="/programmation">Programmation <BrowseGalleryTwoToneIcon/></NavLink> </li>
-        <li><NavLink to ="/infos">Infos  <InfoTwoToneIcon/></NavLink ></li>
-        <li><NavLink to ="/tickets">Tickets<DiscountTwoToneIcon /></NavLink></li>
+        <li><NavLink to ="/" aria-current="page"><span className="span_links">Accueil</span> <span className="icons" ><HomeTwoToneIcon fontSize="large"/></span></NavLink> </li>
+        <li><NavLink to ="/artistes"><span className="span_links">Artistes</span> <span className="icons"><PeopleAltTwoToneIcon fontSize="large"/></span></NavLink></li>
+        <li><NavLink to ="/programmation"><span className="span_links">Programmation </span><span className="icons"><BrowseGalleryTwoToneIcon fontSize="large"/></span></NavLink> </li>
+        <li><NavLink to ="/infos"><span className="span_links">Infos</span>  <span className="icons"><InfoTwoToneIcon fontSize="large"/></span></NavLink ></li>
+        <li><NavLink to ="/tickets"><span className="span_links">Tickets</span><span className="icons">
+          <DiscountTwoToneIcon fontSize="large"/>
+        </span></NavLink></li>
         <li><NavLink to ="/signup"><AccountCircleIcon fontSize="large"/></NavLink></li>
      </ul>
 
@@ -33,6 +35,8 @@ function Header() {
   <span className="hamburger active"><FormatAlignRightTwoToneIcon fontSize="large"/></span>
   <span className="close"><CancelTwoToneIcon fontSize="large"/></span>
   </div>
+
+
 </nav>
 {/* <!-- <a href="#" class="cta_tickets">Tickets</a> --> */}
 </header>

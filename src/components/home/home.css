@@ -18,7 +18,7 @@
   }
   
   .right {
-    width: 50%;
+    width: 55%;
     background-color: #000;
   
     justify-content: center;
@@ -56,8 +56,8 @@
     height: 100%;
   }
   
-  .main_title_right {
-    font-size: 1.7em;
+  .main_title_right h1 {
+    font-size: 3rem;
     font-family: "Cinzel Decorative", cursive;
     
   }
@@ -78,7 +78,7 @@
   }
   
   .location {
-    font-size: 4.5em;
+    font-size: 4rem;
     color: rgb(243, 199, 3);
     font-family: "Tangerine", cursive;
   }
@@ -203,3 +203,17 @@
     }
   }
   
+
+  @media all and (max-width:1284px){
+     .main_title_right h1{
+      font-size: 2.5rem ;
+    
+      text-align: center;
+    }
+  }
+
+  @media all and (max-width:955px){
+     .location {
+      font-size: 3rem;
+    }
+  }
